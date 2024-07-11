@@ -27,3 +27,7 @@ body {
 .card-body {
     background: #5bbdff;
 }
+
+footer a {
+    color: #fff;
+}
