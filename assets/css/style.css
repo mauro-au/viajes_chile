@@ -8,24 +8,16 @@ body {
     font-weight: 100; 
 }
 
-.navbar a.active {
-    color: #fff !important;
+.nav-link:focus, .nav-link:hover {
+    color: #0dcaf0 !important;    
 }
 
-.nav-link:focus, .nav-link:hover {
-    color: #fff;
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #0dcaf0 !important;
 }
 
 .carousel-inner {
     height: 100vh;
-}
-
-.section_text {
-    background: #5bbdff;
-}
-
-.card-body {
-    background: #5bbdff;
 }
 
 footer a {
