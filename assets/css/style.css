@@ -19,3 +19,7 @@ body {
 .carousel-inner {
     height: 100vh;
 }
+
+.section_text {
+    background: #5bbdff;
+}
