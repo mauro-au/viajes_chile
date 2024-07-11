@@ -1,0 +1,12 @@
+.navbar a {
+    color: #fff;
+    font-weight: 100; 
+}
+
+.navbar a.active {
+    color: #fff !important;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #fff;
+}
