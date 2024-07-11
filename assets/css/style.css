@@ -1,3 +1,8 @@
+body {
+    background: #000;
+    color: #fff;
+}
+
 .navbar a {
     color: #fff;
     font-weight: 100; 
@@ -9,4 +14,8 @@
 
 .nav-link:focus, .nav-link:hover {
     color: #fff;
+}
+
+.carousel-inner {
+    height: 100vh;
 }
