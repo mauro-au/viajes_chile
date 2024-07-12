@@ -39,6 +39,17 @@ nav.nav-color-toggler {
     }
 }
 
+.card-img-top {
+    height: auto;
+}
+
+@media only screen and (min-width: 767px) {
+    .card-img-top {        
+        object-fit: cover;
+        height: 172px;
+    }
+}
+
 footer a {
     color: #fff;
     text-decoration: none;
