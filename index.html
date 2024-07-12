@@ -16,69 +16,65 @@
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
-        <header>
-            <!-- navbar -->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="menu">
-                <div class="container">
-                    <a class="navbar-brand d-flex align-items-center" href="#">
-                        <img src="./assets/img/viajes.svg" alt="Logo Viaje Chile" width="30">
-                        <p class="ms-2 mb-0">Viajes Chile</p>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link px-3 active" aria-current="page" href="#">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-3" href="#quienes_somos">Quienes Somos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-3" href="#destacados">Destacados</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-3" href="#contacto">Contacto</a>
-                            </li>
-                        </ul>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="menu">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="./assets/img/viajes.svg" alt="Logo Viaje Chile" width="30">
+                    <p class="ms-2 mb-0">Viajes Chile</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link px-3 active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#quienes_somos">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#destacados">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+            
+        <!-- header = Hero Section Carousel-->
+        <header class="container-fluid p-0">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-            </nav>
-        
-            <!-- header = Hero Section -->
-            <div class="hero text-end">
-                <div class="container-fluid p-0">
-                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </header>
 
         <main>
-            <section class="container my-5" id="quienes_somos">
+            <section class="container py-5 d-none d-md-block" id="quienes_somos">
                 <h2 class="text-center mb-2">QUIENES SOMOS</h2>
                 <hr class=" mb-5">
                 <div class="row">
@@ -103,7 +99,7 @@
                 </div>
             </section>
 
-            <section class="container my-5" id="destacados">
+            <section class="container py-5" id="destacados">
                 <h2 class="text-center mb-2">DESTACADOS</h2>
                 <hr class=" mb-5">
                 <div class="row">
@@ -146,7 +142,7 @@
                 </div>
             </section>
 
-            <section class="container my-5" id="contacto">
+            <section class="container py-5" id="contacto">
                 <h2 class="text-center mb-2">CONTACTO</h2>
                 <hr class=" mb-5">
 

@@ -30,7 +30,13 @@ nav.nav-color-toggler {
 }
 
 .carousel-inner {
-    height: 100vh;
+    height: 100%;
+}
+
+@media only screen and (min-width: 933px) {
+    .carousel-inner {
+        height: 100vh;
+    }
 }
 
 footer a {
