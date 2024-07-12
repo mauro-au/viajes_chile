@@ -3,6 +3,18 @@ body {
     background: #000;
     color: #fff;
 }
+nav {
+    transition: 0.9s;
+}
+
+nav.nav-color-scroll,
+nav.nav-color-toggler {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-toggler {
+    border: 1px solid #FFFFFF80;
+}
 
 .navbar a {
     color: #fff;
