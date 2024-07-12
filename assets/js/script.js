@@ -23,4 +23,17 @@ $(document).ready(function() {
     $('#enviarCorreo').click(function () {
         alert("El correo fue enviado correctamente...");       
     })
+    // smooth scroll al apretar en el los link del navbar
+    $('a').click(function() {
+        if (this.hash !== '') {
+            event.preventDefault();
+            var hashes = this.hash;
+
+            $('html, body').animate({
+                scrollTop : $(hashes).offset().top
+            }, 300, function () {
+                window.location.hashes = hashes;
+            }) 
+        }
+    }) 
 });
