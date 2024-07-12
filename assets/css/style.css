@@ -41,6 +41,7 @@ nav.nav-color-toggler {
 
 .card-img-top {
     height: auto;
+    cursor: pointer;
 }
 
 @media only screen and (min-width: 767px) {
@@ -48,6 +49,10 @@ nav.nav-color-toggler {
         object-fit: cover;
         height: 172px;
     }
+}
+
+.popover-header {
+    color: #000;
 }
 
 footer a {
